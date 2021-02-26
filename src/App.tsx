@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './icon.png';
 import './App.css';
 
 function App() {
@@ -12,11 +12,20 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/maattss/hover"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
+        </a>
+
+        <a
+          className="App-link"
+          href="https://apps.apple.com/us/app/testflight/id899247664"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          TestFight for IOS
         </a>
       </header>
     </div>
