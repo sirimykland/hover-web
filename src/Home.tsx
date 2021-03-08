@@ -24,7 +24,7 @@ function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          TestFlight for IOS
+          TestFlight for iOS
         </a>
       </header>
     </div>
