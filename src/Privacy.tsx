@@ -25,7 +25,7 @@ function Privacy() {
           For a better experience, while using our Service, we may require you
           to provide us with certain personally identifiable information. The
           information that we request will be retained on your device and is not
-          collected by me in any way.
+          collected by us in any way.
         </p>
         <h2 className="Sub-header">Log Data</h2>
         <p className="Text">
