@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./icon.png";
 import "./App.css";
 
 function Privacy() {
@@ -107,7 +106,11 @@ function Privacy() {
         <h2>Contact Us</h2>
         <p className="Text">
           If you have any questions or suggestions about our Privacy Policy, do
-          not hesitate to contact us at contact.hoverapp@gmail.com.
+          not hesitate to contact us at{" "}
+          <a href="mailto:contact.hoverapp@gmail.com" className="App-link">
+            contact.hoverapp@gmail.com
+          </a>
+          .
         </p>
       </div>
     </div>

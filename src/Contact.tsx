@@ -7,8 +7,10 @@ function Contact() {
     <div>
       <h1>Contact</h1>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Contact info goes here.</p>
+        <p>Any questions? Please contact us at</p>
+        <a href="mailto:contact.hoverapp@gmail.com" className="App-link">
+          contact.hoverapp@gmail.com
+        </a>
       </header>
     </div>
   );

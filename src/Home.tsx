@@ -15,16 +15,7 @@ function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
-        </a>
-
-        <a
-          className="App-link"
-          href="https://apps.apple.com/us/app/testflight/id899247664"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          TestFlight for iOS
+          GitHub
         </a>
       </header>
     </div>

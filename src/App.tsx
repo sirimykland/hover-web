@@ -4,6 +4,7 @@ import "./App.css";
 import Privacy from "./Privacy";
 import Home from "./Home";
 import Contact from "./Contact";
+import Test from "./Test";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
+            <li>
+              <Link to="/test">Test</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
@@ -28,6 +32,9 @@ function App() {
           </Route>
           <Route path="/privacy">
             <Privacy />
+          </Route>
+          <Route path="/test">
+            <Test />
           </Route>
           <Route path="/">
             <Home />
