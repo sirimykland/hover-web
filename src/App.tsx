@@ -1,20 +1,15 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import './App.css';
-import Privacy from './Privacy';
-import Home from './Home';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./App.css";
+import Privacy from "./Privacy";
+import Home from "./Home";
+import Contact from "./Contact";
 
 function App() {
   return (
-    
     <div className="App">
       <Router>
-                <nav className="navBar">
+        <nav className="navBar">
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -22,9 +17,15 @@ function App() {
             <li>
               <Link to="/privacy">Privacy</Link>
             </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
-      <Switch>
+        <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
           <Route path="/privacy">
             <Privacy />
           </Route>
@@ -32,8 +33,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-
-        </Router>
+      </Router>
     </div>
   );
 }

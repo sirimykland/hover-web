@@ -2,16 +2,16 @@ import React from "react";
 import logo from "./icon.png";
 import "./App.css";
 
-function Privacy() {
+function Contact() {
   return (
     <div>
-      <h1>Privacy</h1>
+      <h1>Contact</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Privacy Policy goes here.</p>
+        <p>Contact info goes here.</p>
       </header>
     </div>
   );
 }
 
-export default Privacy;
+export default Contact;
