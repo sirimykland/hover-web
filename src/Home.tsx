@@ -28,12 +28,14 @@ function Home() {
         </p>
         <p></p>
         <a
-          className="App-link"
-          href="https://github.com/maattss/hover"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://apps.apple.com/no/app/hover/id1556425356?itsct=apps_box&amp;itscg=30200"
+          className="App-store-link"
         >
-          GitHub repository
+          <img
+            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1615161600&h=f31678349d6bb37f7f2d3b88b34561e4"
+            alt="Download on the App Store"
+            className="App-store-img"
+          />
         </a>
       </header>
     </div>
