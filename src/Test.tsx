@@ -3,13 +3,12 @@ import "./App.css";
 
 function Test() {
   return (
-    <div>
+    <div className="container">
       <h1>Test</h1>
-      <header className="App-body">
-        <h3>
+          <h2 className="Sub-header">
           Important information before the test period will be added to this
           page.
-        </h3>
+        </h2>
         <a
           className="App-link"
           href="https://github.com/maattss/hover"
@@ -27,7 +26,6 @@ function Test() {
         >
           TestFlight for iOS
         </a>
-      </header>
     </div>
   );
 }

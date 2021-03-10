@@ -3,9 +3,8 @@ import "./App.css";
 
 function Privacy() {
   return (
-    <div>
-      <h1>Privacy policy</h1>
-      <div className="App-body">
+      <div className="container">
+        <h1>Privacy policy</h1>
         <p className="Text">
           Mats Tyldum and Siri Mykland built the Hover app as a Free app. This
           service is provided by Mats Tyldum and Siri Mykland at no cost and is
@@ -134,7 +133,6 @@ function Privacy() {
           .
         </p>
       </div>
-    </div>
   );
 }
 

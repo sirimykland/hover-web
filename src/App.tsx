@@ -26,20 +26,24 @@ function App() {
             </li>
           </ul>
         </nav>
-        <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/privacy">
-            <Privacy />
-          </Route>
-          <Route path="/test">
-            <Test />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <div className="App-body">
+        <div className="contentContainer">
+          <Switch>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/privacy">
+              <Privacy />
+            </Route>
+            <Route path="/test">
+              <Test />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>        
+        </div>        
       </Router>
     </div>
   );

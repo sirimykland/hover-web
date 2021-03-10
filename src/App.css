@@ -26,6 +26,15 @@
   font-size: 14px;
   color: white;
   padding: 20px;
+  align-items: center;
+}
+.contentContainer {
+  max-width: 90vh;
+  width: 100%;
+  align-self: center;
+}
+.container {
+  align-self: flex-start;
 }
 .Sub-header {
   margin: 0;

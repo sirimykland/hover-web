@@ -4,7 +4,7 @@ import "./App.css";
 
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>Hover</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Hover logo" />
