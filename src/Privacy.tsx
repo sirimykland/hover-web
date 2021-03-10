@@ -20,6 +20,7 @@ function Privacy() {
           as in our Terms and Conditions, which is accessible at Hover unless
           otherwise defined in this Privacy Policy.
         </p>
+
         <h2 className="Sub-header">Information Collection and Use</h2>
         <p>
           For a better experience, while using our Service, we may require you
@@ -27,6 +28,26 @@ function Privacy() {
           information that we request will be retained on your device and is not
           collected by us in any way.
         </p>
+
+        <h3 className="Sub-header">Account, Profile and Activity</h3>
+        <p>Activity and use information is collected about you when you choose 
+          to upload an activity (including date, time and geofence-location 
+          information). We use your contact information so we can respond to 
+          your support requests and comments.</p>
+
+        <h3 className="Sub-header">Location Information</h3>
+        <p>We collect and process location information when you sign up for and 
+          use the Services. We do not track your device location while you are 
+          not using Hover, but in order to provide Hovers' core service, it 
+          is necessary for us to track your device location while you use Hover. 
+          You may at any time adjusting your device settings if you would like 
+          to stop the device location tracking.
+        </p>
+
+        <h3 className="Sub-header">Content You Share</h3>
+        <p>We gather information from the activities and reactions you share on 
+          the Service, including when you create or participate in challenges.</p>
+
         <h2 className="Sub-header">Log Data</h2>
         <p className="Text">
           We want to inform you that whenever you use our Service, in a case of
@@ -101,7 +122,7 @@ function Privacy() {
           page.
         </p>
 
-        <em>This policy is effective as of 2021-03-08.</em>
+        <em>This policy is effective as of 2021-03-10.</em>
 
         <h2>Contact Us</h2>
         <p className="Text">
