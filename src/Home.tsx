@@ -5,8 +5,8 @@ import './App.css';
 function Home() {
   return (
     <div className="container">
-      <h1>Hover</h1>
-      <header className="App-header">
+      <div className="home">
+        <h1>Hover</h1>
         <img src={logo} className="App-logo" alt="Hover logo" />
         <p>
           Hover is a pervasive game where your location is used as the input. In short, players get
@@ -33,7 +33,7 @@ function Home() {
             className="App-store-img"
           />
         </a>
-      </header>
+      </div>
     </div>
   );
 }

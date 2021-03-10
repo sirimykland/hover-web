@@ -5,8 +5,7 @@
   height: 30vmin;
   pointer-events: none;
 }
-.App-header {
-  background-color: #282c34;
+.home {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
