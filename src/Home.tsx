@@ -24,15 +24,26 @@ function Home() {
           decide the rules themselves.
         </p>
         <p></p>
-        <a
-          href="https://apps.apple.com/no/app/hover/id1556425356?itsct=apps_box&amp;itscg=30200"
-          className="App-store-link">
-          <img
-            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1615161600&h=f31678349d6bb37f7f2d3b88b34561e4"
-            alt="Download on the App Store"
-            className="App-store-img"
-          />
-        </a>
+        <div className="Link-container">
+          <a
+            href="https://apps.apple.com/no/app/hover/id1556425356?itsct=apps_box&amp;itscg=30200"
+            className="App-store-link">
+            <img
+              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1615161600&h=f31678349d6bb37f7f2d3b88b34561e4"
+              alt="Download on the App Store"
+              className="App-store-img"
+            />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.hoverapp.hover&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            className="Google-Play-link">
+            <img
+              alt="Get it on Google Play"
+              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              className="Google-Play-img"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

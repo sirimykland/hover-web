@@ -85,4 +85,15 @@
   border-bottom-left-radius: 13px;
   width: 250px;
   height: 83px;
+  margin-top: 20px;
+}
+.Google-Play-link {
+  width: 286px;
+}
+.Google-Play-img {
+  height: 125px;
+}
+.Link-container {
+  display: flex;
+  flex-direction: 'row';
 }
