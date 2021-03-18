@@ -69,31 +69,17 @@
   color: #222;
 }
 .App-store-img {
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  width: 250px;
-  height: 83px;
-}
-.App-store-link {
-  display: inline-block;
-  overflow: hidden;
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  width: 250px;
-  height: 83px;
-  margin-top: 20px;
-}
-.Google-Play-link {
-  width: 286px;
+  height: 85px;
+  margin: 15px;
 }
 .Google-Play-img {
-  height: 125px;
+  height: 130px;
 }
 .Link-container {
   display: flex;
   flex-direction: 'row';
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: fit-content;
 }
