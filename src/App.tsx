@@ -22,7 +22,7 @@ function App() {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/test">Test</Link>
+              <Link to="/test">Testing</Link>
             </li>
           </ul>
         </nav>
