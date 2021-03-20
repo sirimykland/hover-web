@@ -1,54 +1,28 @@
-.App {
-  text-align: center;
-}
-.App-logo {
-  height: 30vmin;
-  pointer-events: none;
-}
-.home {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  font-size: calc(12px + 1vmin);
-  color: white;
-  padding: 20px;
-}
-.App-body {
+.app-body {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   padding: 20px;
   align-items: center;
 }
-.contentContainer {
-  max-width: 90vh;
-  width: 100%;
-  align-self: center;
+.header {
+  margin-bottom: 16px;
 }
-.container {
-  align-self: flex-start;
-}
-.Sub-header {
+.sub-header {
   margin: 0;
-  margin-top: 12px;
-  margin-bottom: 4px;
+  margin-top: 16px;
+  margin-bottom: 8px;
   padding: 0;
 }
-.Text {
+.text {
   margin: 0;
   padding: 0;
 }
-.App-link {
+.app-link {
   color: #61dafb;
 }
-.navBar ul {
+.nav-bar ul {
   padding: 0;
   margin: 0;
   display: flex;
@@ -56,30 +30,15 @@
   width: 100%;
   background-color: #fff;
 }
-.navBar ul a {
+.nav-bar ul a {
   text-decoration: none;
   color: #282c34;
   display: block;
   padding: 15px;
   margin: 0 5px;
 }
-.navBar ul .active,
-.navBar ul a:hover {
+.nav-bar ul .active,
+.nav-bar ul a:hover {
   background: #fff;
   color: #222;
-}
-.App-store-img {
-  height: 85px;
-  margin: 15px;
-}
-.Google-Play-img {
-  height: 130px;
-}
-.Link-container {
-  display: flex;
-  flex-direction: 'row';
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: fit-content;
 }

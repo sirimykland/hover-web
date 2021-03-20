@@ -8,9 +8,9 @@ import Test from './Testing/Testing';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
-        <nav className="navBar">
+        <nav className="nav-bar">
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -26,8 +26,8 @@ function App() {
             </li>
           </ul>
         </nav>
-        <div className="App-body">
-          <div className="contentContainer">
+        <div className="app-body">
+          <div className="container-md">
             <Switch>
               <Route path="/contact">
                 <Contact />
