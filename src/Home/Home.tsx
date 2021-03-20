@@ -7,7 +7,7 @@ import GooglePlay from '../Images/GooglePlay.svg';
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <div className="text-center">
         <img src={Logo} alt="Hover logo" className="app-logo" />
         <h1 className="header">Hover</h1>

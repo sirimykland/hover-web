@@ -1,3 +1,6 @@
+.home {
+  align-items: center;
+}
 .link-container {
   width: '100%';
   display: flex;

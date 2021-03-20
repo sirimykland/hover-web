@@ -28,20 +28,22 @@ function App() {
         </nav>
         <div className="app-body">
           <div className="container-md">
-            <Switch>
-              <Route path="/contact">
-                <Contact />
-              </Route>
-              <Route path="/privacy">
-                <Privacy />
-              </Route>
-              <Route path="/test">
-                <Test />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
+            <div className="app-body-inner">
+              <Switch>
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+                <Route path="/privacy">
+                  <Privacy />
+                </Route>
+                <Route path="/test">
+                  <Test />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
+              </Switch>
+            </div>
           </div>
         </div>
       </Router>
