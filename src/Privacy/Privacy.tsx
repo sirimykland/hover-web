@@ -108,10 +108,8 @@ function Privacy() {
       <p className="text">
         We may update our Privacy Policy from time to time. Thus, you are advised to review this
         page periodically for any changes. we will notify you of any changes by posting the new
-        Privacy Policy on this page.
+        Privacy Policy on this page. <em>This policy is effective as of 2021-03-10.</em>
       </p>
-
-      <em>This policy is effective as of 2021-03-10.</em>
 
       <h3 className="sub-header">Contact Us</h3>
       <p className="text">
