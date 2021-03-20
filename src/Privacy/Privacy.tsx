@@ -18,7 +18,7 @@ function Privacy() {
         accessible at Hover unless otherwise defined in this Privacy Policy.
       </p>
 
-      <h2 className="sub-header">Information Collection and Use</h2>
+      <h3 className="sub-header">Information Collection and Use</h3>
       <p>
         For a better experience, while using our Service, we may require you to provide us with
         certain personally identifiable information. The information that we request will be
@@ -47,7 +47,7 @@ function Privacy() {
         when you create or participate in challenges.
       </p>
 
-      <h2 className="sub-header">Log Data</h2>
+      <h3 className="sub-header">Log Data</h3>
       <p className="text">
         We want to inform you that whenever you use our Service, in a case of an error in the app we
         collect data and information (through third party products) on your phone called Log Data.
@@ -55,7 +55,7 @@ function Privacy() {
         device name, operating system version, the configuration of the app when utilizing our
         Service, the time and date of your use of the Service, and other statistics.
       </p>
-      <h2 className="sub-header">Cookies</h2>
+      <h3 className="sub-header">Cookies</h3>
       <p className="text">
         Cookies are files with a small amount of data that are commonly used as anonymous unique
         identifiers. These are sent to your browser from the websites that you visit and are stored
@@ -65,7 +65,7 @@ function Privacy() {
         cookies and know when a cookie is being sent to your device. If you choose to refuse our
         cookies, you may not be able to use some portions of this Service.
       </p>
-      <h2 className="sub-header">Service Providers</h2>
+      <h3 className="sub-header">Service Providers</h3>
       <p className="text">
         We may employ third-party companies and individuals due to the following reasons:
       </p>
@@ -80,14 +80,14 @@ function Privacy() {
         Personal Information. The reason is to perform the tasks assigned to them on our behalf.
         However, they are obligated not to disclose or use the information for any other purpose.
       </p>
-      <h2 className="sub-header">Security</h2>
+      <h3 className="sub-header">Security</h3>
       <p className="text">
         We value your trust in providing us your Personal Information, thus we are striving to use
         commercially acceptable means of protecting it. But remember that no method of transmission
         over the internet, or method of electronic storage is 100% secure and reliable, and we
         cannot guarantee its absolute security.
       </p>
-      <h2 className="sub-header">Links to Other Sites</h2>
+      <h3 className="sub-header">Links to Other Sites</h3>
       <p className="text">
         This Service may contain links to other sites. If you click on a third-party link, you will
         be directed to that site. Note that these external sites are not operated by me. Therefore,
@@ -95,7 +95,7 @@ function Privacy() {
         over and assume no responsibility for the content, privacy policies, or practices of any
         third-party sites or services.
       </p>
-      <h2 className="sub-header">Children’s Privacy</h2>
+      <h3 className="sub-header">Children’s Privacy</h3>
       <p className="text">
         These Services do not address anyone under the age of 13. We do not knowingly collect
         personally identifiable information from children under 13 years of age. In the case we
@@ -104,7 +104,7 @@ function Privacy() {
         child has provided us with personal information, please contact me so that we will be able
         to do necessary actions.
       </p>
-      <h2 className="sub-header">Changes to This Privacy Policy</h2>
+      <h3 className="sub-header">Changes to This Privacy Policy</h3>
       <p className="text">
         We may update our Privacy Policy from time to time. Thus, you are advised to review this
         page periodically for any changes. we will notify you of any changes by posting the new
@@ -113,11 +113,11 @@ function Privacy() {
 
       <em>This policy is effective as of 2021-03-10.</em>
 
-      <h2 className="sub-header">Contact Us</h2>
+      <h3 className="sub-header">Contact Us</h3>
       <p className="text">
         If you have any questions or suggestions about our Privacy Policy, do not hesitate to
         contact us at{' '}
-        <a href="mailto:contact.hoverapp@gmail.com" className="App-link">
+        <a href="mailto:contact.hoverapp@gmail.com" className="app-link">
           contact.hoverapp@gmail.com
         </a>
         .

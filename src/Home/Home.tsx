@@ -21,6 +21,7 @@ function Home() {
         categorized as health, school as knowledge, museums and concert venues as culture, and
         bowling alleys and restaurants as social.
       </p>
+
       <p>
         Achievements and points are awarded based on individual categories and total score. In this
         way, you can focus on doing your best in a specific category or try to get the best overall
