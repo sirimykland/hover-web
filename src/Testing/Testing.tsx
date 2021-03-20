@@ -13,7 +13,11 @@ function Test() {
       <ol>
         <li>
           Download the agreements form{' '}
-          <a href="../Downloads/Informasjonsskriv.pdf" download className="app-link">
+          <a
+            href="../Downloads/Informasjonsskriv.pdf"
+            download
+            className="app-link"
+            target="_blank">
             here
           </a>
           .
