@@ -13,17 +13,13 @@ function Test() {
       <ol>
         <li>
           Download the agreements form{' '}
-          <a
-            href="../Downloads/Informasjonsskriv.pdf"
-            download
-            className="app-link"
-            target="_blank">
+          <a href="./assets/Informasjonsskriv.pdf" download className="app-link" target="_blank">
             here
           </a>
           .
         </li>
         <li>
-          Please read the document carefully, sign it, and send the signed version to our e-mail{' '}
+          Please read the document carefully, sign it, and send us the signed version:{' '}
           <a href="mailto:contact.hoverapp@gmail.com" className="app-link">
             contact.hoverapp@gmail.com
           </a>
@@ -61,13 +57,20 @@ function Test() {
         </li>
         <li>Use the application during the two weeks of the test period (12.04-25.04).</li>
         <li>
-          After the test period, answer this{' '}
+          After the test period, answer the{' '}
           <a className="app-link" target="_blank" rel="noopener noreferrer">
             questionnaire
           </a>
-          .
+          . Should not take more than 15-20 minutes.
         </li>
       </ol>
+      <h4 className="sub-header">Appreciation</h4>
+      <p className="text">
+        We really appreciate everyone participating in the survey. Therefore, we will randomly pick
+        5 people who get a surprise gift from us after completing the testing period. To qualify,
+        you need to actively use the application during the test period and answer the questionnaire
+        afterward.
+      </p>
       <h4 className="sub-header">Questions?</h4>
       <p className="text">
         Please contact us at{' '}

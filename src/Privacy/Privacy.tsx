@@ -4,7 +4,7 @@ import './Privacy.css';
 
 function Privacy() {
   return (
-    <div className="my-4">
+    <div className="privacy">
       <h1 className="header">Privacy policy</h1>
       <p className="text">
         Mats Tyldum and Siri Mykland built the Hover app as a Free app. This service is provided by
@@ -114,12 +114,11 @@ function Privacy() {
       <h3 className="sub-header">Contact Us</h3>
       <p className="text">
         If you have any questions or suggestions about our Privacy Policy, do not hesitate to
-        contact us at{' '}
-        <a href="mailto:contact.hoverapp@gmail.com" className="app-link">
-          contact.hoverapp@gmail.com
-        </a>
-        .
+        contact us at:
       </p>
+      <a href="mailto:contact.hoverapp@gmail.com" className="app-link">
+        contact.hoverapp@gmail.com
+      </a>
     </div>
   );
 }
