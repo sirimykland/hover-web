@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
-import Privacy from './Privacy';
-import Home from './Home';
-import Contact from './Contact';
-import Test from './Test';
+import Privacy from './Privacy/Privacy';
+import Home from './Home/Home';
+import Contact from './Contact/Contact';
+import Testing from './Testing/Testing';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
-        <nav className="navBar">
+        <nav className="nav-bar">
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -22,26 +22,28 @@ function App() {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/test">Testing</Link>
+              <Link to="/testing">Testing</Link>
             </li>
           </ul>
         </nav>
-        <div className="App-body">
-          <div className="contentContainer">
-            <Switch>
-              <Route path="/contact">
-                <Contact />
-              </Route>
-              <Route path="/privacy">
-                <Privacy />
-              </Route>
-              <Route path="/test">
-                <Test />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
+        <div className="app-body">
+          <div className="container-md">
+            <div className="app-body-inner">
+              <Switch>
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+                <Route path="/privacy">
+                  <Privacy />
+                </Route>
+                <Route path="/testing">
+                  <Testing />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
+              </Switch>
+            </div>
           </div>
         </div>
       </Router>
