@@ -34,7 +34,7 @@ function Testing() {
           to get a quick presentation of how the game works.
         </li>
         <li>
-          Download Hover from{' '}
+          Download and install Hover from{' '}
           <a
             href="https://apps.apple.com/no/app/hover/id1556425356"
             className="app-link"
@@ -54,7 +54,7 @@ function Testing() {
         </li>
         <li>Use the application during the two weeks of the test period (12.04-25.04).</li>
         <li>
-          After the test period, answer this{' '}
+          After the test period is finished, answer this{' '}
           <a
             href="https://nettskjema.no/a/183299 "
             className="app-link"
@@ -63,15 +63,15 @@ function Testing() {
             questionnaire
           </a>{' '}
           (login using Feide). The survey is open from <i>25th April 12:00</i> and it should not
-          take more than 15-20 minutes.
+          take more than 15-20 minutes to complete.
         </li>
       </ol>
       <h4 className="sub-header">Appreciation</h4>
       <p className="text">
-        We really appreciate everyone participating in the survey. Therefore, we will pick 5 random
-        participants who get a surprise gift from us when the test period is completed. To qualify,
-        you need to actively take part in the testing, i.e. using the application between
-        12.04-25.04, and answer the questionnaire afterward.
+        We appreciate everyone participating in the survey. Therefore, we will pick{' '}
+        <strong>5</strong> random participants who get a surprise gift from us when the test period
+        is completed. To qualify, you need to actively take part in the testing, i.e. use the
+        application between 12.04-25.04, and answer the questionnaire afterward.
       </p>
       <h4 className="sub-header">Questions?</h4>
       <p className="text">
