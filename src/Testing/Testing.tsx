@@ -19,8 +19,8 @@ function Testing() {
             target="_blank"
             rel="noopener noreferrer">
             here
-          </a>
-          .
+          </a>{' '}
+          (login using Feide).
         </li>
         <li>
           Watch the Hover introduction video on{' '}
@@ -61,8 +61,9 @@ function Testing() {
             target="_blank"
             rel="noopener noreferrer">
             questionnaire
-          </a>
-          . It should not take more than 15-20 minutes.
+          </a>{' '}
+          (login using Feide). The survey is open from <i>25th April 12:00</i> and it should not
+          take more than 15-20 minutes.
         </li>
       </ol>
       <h4 className="sub-header">Appreciation</h4>
