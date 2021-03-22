@@ -1,8 +1,6 @@
 # Hover Web
 
-This repository is used to develop the web page for our alternative game concept Hover.
-
-The repository for the game can found here: [Hover](https://github.com/maattss/hover).
+This repository is used to develop the web page for our alternative game concept Hover. The repository for the game can found here: [Hover](https://github.com/maattss/hover).
 
 ## The concept
 
