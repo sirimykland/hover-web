@@ -12,21 +12,13 @@ function Testing() {
       <h4 className="sub-header">What to do</h4>
       <ol>
         <li>
-          Download the agreements form{' '}
+          Read the information document and agree to participate in the study{' '}
           <a
-            href="/informasjon.pdf"
-            download="informasjonHover.pdf"
+            href="https://nettskjema.no/a/194091"
             className="app-link"
             target="_blank"
             rel="noopener noreferrer">
             here
-          </a>
-          .
-        </li>
-        <li>
-          Please read the document carefully, sign it, and send us the signed version:{' '}
-          <a href="mailto:contact.hoverapp@gmail.com" className="app-link">
-            contact.hoverapp@gmail.com
           </a>
           .
         </li>
@@ -62,8 +54,12 @@ function Testing() {
         </li>
         <li>Use the application during the two weeks of the test period (12.04-25.04).</li>
         <li>
-          After the test period, answer the{' '}
-          <a className="app-link" target="_blank" rel="noopener noreferrer">
+          After the test period, answer this{' '}
+          <a
+            href="https://nettskjema.no/a/183299 "
+            className="app-link"
+            target="_blank"
+            rel="noopener noreferrer">
             questionnaire
           </a>
           . It should not take more than 15-20 minutes.
@@ -71,10 +67,10 @@ function Testing() {
       </ol>
       <h4 className="sub-header">Appreciation</h4>
       <p className="text">
-        We really appreciate everyone participating in the survey. Therefore, we will randomly pick
-        5 people who get a surprise gift from us when the testing is finished. To qualify, you need
-        to actively use the application during the test period and answer the questionnaire
-        afterward.
+        We really appreciate everyone participating in the survey. Therefore, we will pick 5 random
+        participants who get a surprise gift from us when the test period is completed. To qualify,
+        you need to actively take part in the testing, i.e. using the application between
+        12.04-25.04, and answer the questionnaire afterward.
       </p>
       <h4 className="sub-header">Questions?</h4>
       <p className="text">
