@@ -66,14 +66,14 @@ function Testing() {
           <a className="app-link" target="_blank" rel="noopener noreferrer">
             questionnaire
           </a>
-          . Should not take more than 15-20 minutes.
+          . It should not take more than 15-20 minutes.
         </li>
       </ol>
       <h4 className="sub-header">Appreciation</h4>
       <p className="text">
         We really appreciate everyone participating in the survey. Therefore, we will randomly pick
-        5 people who get a surprise gift from us after completing the testing period. To qualify,
-        you need to actively use the application during the test period and answer the questionnaire
+        5 people who get a surprise gift from us when the testing is finished. To qualify, you need
+        to actively use the application during the test period and answer the questionnaire
         afterward.
       </p>
       <h4 className="sub-header">Questions?</h4>
