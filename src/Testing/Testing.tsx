@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Testing.css';
 
-function Test() {
+function Testing() {
   return (
     <div className="my-4">
       <h1 className="header">Testing</h1>
@@ -13,7 +13,12 @@ function Test() {
       <ol>
         <li>
           Download the agreements form{' '}
-          <a href="./assets/Informasjonsskriv.pdf" download className="app-link" target="_blank">
+          <a
+            href="/informasjon.pdf"
+            download="informasjonHover.pdf"
+            className="app-link"
+            target="_blank"
+            rel="noopener noreferrer">
             here
           </a>
           .
@@ -83,4 +88,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Testing;

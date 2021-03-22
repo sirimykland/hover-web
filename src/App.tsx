@@ -4,7 +4,7 @@ import './App.css';
 import Privacy from './Privacy/Privacy';
 import Home from './Home/Home';
 import Contact from './Contact/Contact';
-import Test from './Testing/Testing';
+import Testing from './Testing/Testing';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/test">Testing</Link>
+              <Link to="/testing">Testing</Link>
             </li>
           </ul>
         </nav>
@@ -36,8 +36,8 @@ function App() {
                 <Route path="/privacy">
                   <Privacy />
                 </Route>
-                <Route path="/test">
-                  <Test />
+                <Route path="/testing">
+                  <Testing />
                 </Route>
                 <Route path="/">
                   <Home />
