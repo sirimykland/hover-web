@@ -63,7 +63,7 @@ function Testing() {
             questionnaire
           </a>{' '}
           (login using Feide). The survey is open from <i>25th April 12:00</i> and it should not
-          take more than 15-20 minutes to complete.
+          take more than 10-15 minutes to complete.
         </li>
       </ol>
       <h4 className="sub-header">Appreciation</h4>
