@@ -25,7 +25,7 @@ function Testing() {
         <li>
           Watch the Hover introduction video on{' '}
           <a
-            href="https://www.youtube.com/watch?v=s5bqVqBzYPI"
+            href="https://youtu.be/vx7aeTkt_aY"
             className="app-link"
             target="_blank"
             rel="noopener noreferrer">
