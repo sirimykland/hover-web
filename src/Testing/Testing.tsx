@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import './Testing.css';
 
@@ -6,6 +7,11 @@ function Testing() {
   return (
     <div className="my-4">
       <h1 className="header">Testing</h1>
+      <p className="text">
+        <Link to="/testing/no">Norwegian</Link>
+        {' | '}
+        English
+      </p>
       <p className="text">
         <i>Period: 12th - 25th of April 2021</i>
       </p>
@@ -66,9 +72,48 @@ function Testing() {
           take more than 10-15 minutes to complete.
         </li>
       </ol>
+
+      <h4 className="sub-header">Note</h4>
+      <ol>
+        <li>
+          If you have already signed up for the app before the testing period, you need to sign up
+          again because we have deleted all users and app content.
+        </li>
+        <li>
+          To get the optimal game experience, we ask you to:
+          <ol type="a">
+            <li>To always enable Location services.</li>
+            <li>To enable Notification services.</li>
+            <li>
+              To always run the application in the background (so that we can remind you to use the
+              game through geofence-based push notifications).
+            </li>
+            <li>
+              To turn off battery optimization or other optimization features that interfere with
+              the usage of Hover (Android).
+            </li>
+            <li>
+              Select a username or name that lets other users recognize you (name, bio, and avatars
+              can be changed in settings).
+            </li>
+          </ol>
+        </li>
+        <li>
+          If you experience something not working, let us know so we can fix it for you. Examples of
+          this may be:
+          <ol type="a">
+            <li>Adjust points/duration of an activity</li>
+            <li>
+              Manually add an activity (i.e., you forgot to record an hour-long session at the gym.)
+            </li>
+            <li>Delete activities or challenges</li>
+          </ol>
+        </li>
+      </ol>
+
       <h4 className="sub-header">Appreciation</h4>
       <p className="text">
-        We appreciate everyone participating in the survey. Therefore, we will pick{' '}
+        We appreciate everyone participating in the survey. Therefore, we will pick
         <strong>5</strong> random participants who get a surprise gift from us when the test period
         is completed. To qualify, you need to actively take part in the testing, i.e. use the
         application between 12.04-25.04, and answer the questionnaire afterward.
