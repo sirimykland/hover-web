@@ -10,7 +10,9 @@ function TestingNorwegian() {
       <p className="text">
         Norwegian
         {' | '}
-        <Link to="/testing/en">English</Link>
+        <Link to="/testing/en" className="app-link">
+          English
+        </Link>
       </p>
       <p className="text">
         <i>Periode: 12. - 25. april 2021</i>
@@ -68,15 +70,15 @@ function TestingNorwegian() {
             rel="noopener noreferrer">
             spørreskjema
           </a>{' '}
-          (logg inn med Feide). Undersøkelsen er åpen fra <i>25. april 12:00</i>, og det bør ikke ta
-          mer enn 10-15 minutter å fullføre.
+          (logg inn med Feide). Undersøkelsen er åpen fra <i>25. april 12:00</i>, og det tar ikke
+          mer enn 5-10 minutter å fullføre.
         </li>
       </ol>
-      <h4 className="sub-header">Verdt å merke</h4>
+      <h4 className="sub-header">Verdt å merke seg</h4>
       <ol>
         <li>
           Hvis du allerede har registrert deg for appen før testperioden, må du registrere deg igjen
-          fordi vi har slettet alle brukere og appinnhold.
+          fordi vi har slettet alle brukere og innhold i appen.
         </li>
         <li>
           For å få den optimale spillopplevelsen ber vi deg om:

@@ -8,7 +8,9 @@ function Testing() {
     <div className="my-4">
       <h1 className="header">Testing</h1>
       <p className="text">
-        <Link to="/testing/no">Norwegian</Link>
+        <Link to="/testing/no" className="app-link">
+          Norwegian
+        </Link>
         {' | '}
         English
       </p>
@@ -68,8 +70,8 @@ function Testing() {
             rel="noopener noreferrer">
             questionnaire
           </a>{' '}
-          (login using Feide). The survey is open from <i>25th April 12:00</i> and it should not
-          take more than 10-15 minutes to complete.
+          (login using Feide). The survey is open from <i>25th April 12:00</i> and it will not take
+          more than 5-10 minutes to complete.
         </li>
       </ol>
 
